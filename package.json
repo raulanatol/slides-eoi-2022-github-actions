@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^2.1.2",
+    "@marp-team/marp-core": "^3.3.2",
+    "markdown-it-include": "^2.0.0",
     "ncp": "^2.0.0"
   }
 }

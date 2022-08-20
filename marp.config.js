@@ -1,3 +1,5 @@
+const {Marp} = require('@marp-team/marp-core');
+const markdownItInclude = require('markdown-it-include');
 const canonicalUrl = process.env.URL || undefined
 const ogImage = (() => {
   if (canonicalUrl) return `${canonicalUrl}/og-image.jpg`
@@ -10,6 +12,8 @@ const ogImage = (() => {
 module.exports = {
   allowLocalFiles: true,
   ogImage,
+  html: true,
   themeSet: 'themes',
   url: canonicalUrl,
+  engine: opts => new Marp(opts).use(markdownItInclude)
 }
