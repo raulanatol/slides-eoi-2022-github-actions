@@ -3,11 +3,22 @@
 
 :root {
   --color-background: #6953F2;
+
   --color-font: #FFFFFF;
+  --color-font-black: #000000;
+
   --marpit-root-font-size: 16px;
 
   color: var(--color-font);
   font-family: 'Lato', sans-serif;
+}
+
+[data-bespoke-marp-fragment=inactive] {
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 section {
@@ -24,12 +35,52 @@ img.avatar {
   box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
 }
 
+.shadow-1 {
+  box-shadow: rgba(255, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+  /*box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;*/
+}
+
+/*******************************/
+/*           LAYOUTS           */
+/*******************************/
+
+section.layout-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+section.layout-bottom {
+  display: flex;
+  align-content: center;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 section.two-columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   align-content: center;
   text-align: center;
+}
+
+section.nine-areas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+.area-8 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.area-9 {
+  grid-row: 3;
+  grid-column: 3;
 }
 
 .flex-vertical {
@@ -51,7 +102,66 @@ section.two-columns {
   margin-bottom: 1rem;
 }
 
+.margin-bottom-2x {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-3x {
+  margin-bottom: 3rem;
+}
+
+.padding {
+  padding: 0.8rem;
+}
+
+.padding-2x {
+  padding: 2rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-right {
+  justify-content: flex-end;
+}
+
+.align-bottom {
+  align-items: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
 h1 {
   font-size: 3rem;
   margin: 0;
+}
+
+.title1 {
+  font-size: 3rem;
+  color: var(--color-font-black);
+  font-weight: 500;
+}
+
+.bg-white {
+  background: rgba(255, 255, 255, 0.40);
+}
+
+.radius {
+  border-radius: 6px;
+}
+
+.animation-visibility-3x {
+  transition: visibility 0.3s linear, opacity 0.3s linear;
+}
+
+.hover-1 {
+  opacity: 0.4;
+}
+
+.hover-1:hover {
+  opacity: 1;
+  stroke: var(--color-font);
 }
