@@ -108,6 +108,10 @@ section.nine-areas {
   grid-row-gap: 0;
 }
 
+section.align-center {
+  align-items: center;
+}
+
 /*******************************/
 /*            AREAS            */
 /*******************************/
@@ -228,6 +232,14 @@ section.nine-areas {
   margin-top: 5rem;
 }
 
+.margin-left-2x {
+  margin-left: 2rem;
+}
+
+.margin-left-5x {
+  margin-left: 5rem;
+}
+
 .padding {
   padding: 0.8rem;
 }
@@ -303,6 +315,10 @@ h1 {
 
 .animation-visibility-3x {
   transition: visibility 0.3s linear, opacity 0.3s linear;
+}
+
+.animation-visibility-6x {
+  transition: visibility 0.6s linear, opacity 0.6s linear;
 }
 
 .hover-1 {
@@ -489,4 +505,8 @@ footer.wave-1 {
 
 .animation1 > svg {
   width: 1100px;
+}
+
+.big-emoji {
+  font-size: 175px;
 }

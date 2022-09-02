@@ -41,6 +41,269 @@ _paginate: false
 
 <div class="animation1">
 
-!!!include(assets/action_flow.svg)!!!
+!!!include(animations/action_flow.svg)!!!
+
+</div>
+
+---
+
+<!-- backgroundColor: #FFFFFF  -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-1-3 text-center">
+  <p class="paragraph-2 area-1-3 c-blue">Alternativas</p>
+</div>
+<div class="area-4 text-center" data-marpit-fragment>
+  <img src="assets/jenkins.png"/>
+</div>
+<div class="area-5 text-center" data-marpit-fragment>
+  <img src="assets/circle-ci.png"/>
+</div>
+<div class="area-6 text-center" data-marpit-fragment>
+  <img src="assets/travis.png"/>
+</div>
+<div class="area-7 text-center" data-marpit-fragment>
+  <img src="assets/bitrise.png"/>
+</div>
+<div class="area-9 text-center" data-marpit-fragment>
+  <img height="60" src="assets/bamboo.png"/>
+</div>
+
+--- 
+
+![bg contain](assets/pricing.png)
+
+---
+
+
+![bg contain](assets/pricing-travis.png)
+
+---
+
+<!-- _backgroundColor: #EDEDED -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-vertical justify-center align-center">
+  <p class="paragraph-1 c-blue">¿Dónde encontrarlo?</p>
+</div>
+<div class="area-3 text-center z-index-10">
+  <img height="227" src="assets/found.png"/>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-6 flex-vertical justify-center align-center">
+  <p class="paragraph-2 c-blue">Integrado en tu repo</p>
+</div>
+
+<img src="assets/repo1.png"/>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-6 flex-vertical justify-center align-center">
+  <p class="paragraph-2 c-blue">Integrado en cada commit</p>
+</div>
+
+<img src="assets/commit.png"/>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-6 flex-vertical justify-center align-center">
+  <p class="paragraph-2 c-blue">Feedback automático</p>
+</div>
+
+<img src="assets/feedback.png"/>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-6 flex-vertical justify-center align-center">
+  <p class="paragraph-2 c-blue">Información y logs detallados</p>
+</div>
+
+<img src="assets/logs.png"/>
+
+---
+
+<!-- _class: theme-intro -->
+
+![bg](assets/home.png)
+
+<div class="area-1-3 flex-vertical justify-center align-center">
+  <p class="paragraph-1 c-secondary">Pero antes...</p>
+</div>
+
+<div class="area-8 flex-vertical align-bottom">
+  <img src="assets/enigma.png"/>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary">¿Qué es CI/CD?</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary text-center">¿Es lo mismo hacer CI/CD que automatizar?</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary text-center">¿Qué es compatibilidad hacia atrás o backward compatibility?</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary text-center">¿Qué es Semantic Versioning?</p>
+</div>
+
+::: slideLink https://semver.org/ external-link-black
+:::
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-5 flex-horizontal align-center justify-center">
+  <img height="325" src="assets/major.png"/>
+  <div class="h100">
+    <p class="paragraph-2 c-secondary text-center">Major</p>
+    <p class="paragraph-3 c-secondary text-center">Cambio grande en la API que hace incompatible con versiones anteriores</p>
+  </div>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-5 flex-horizontal align-center justify-center">
+  <img height="325" src="assets/minor.png"/>
+  <div class="h100">
+    <p class="paragraph-2 c-secondary text-center">Minor</p>
+    <p class="paragraph-3 c-secondary text-center">Cambio menor que mantiene compatibilidad hacia atrás</p>
+  </div>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-5 flex-horizontal align-center justify-center">
+  <img height="325" src="assets/pacth.png"/>
+  <div class="h100">
+    <p class="paragraph-2 c-secondary text-center">Patch</p>
+    <p class="paragraph-3 c-secondary text-center">Parche, corrección de bugs, fixes menores</p>
+  </div>
+</div>
+
+---
+
+<!-- _class: theme-intro -->
+
+![bg](assets/home.png)
+
+<div class="area-1-3 flex-vertical justify-center align-center">
+  <p class="paragraph-1 c-secondary">Conceptos básicos</p>
+</div>
+
+<div class="area-8 flex-vertical align-bottom">
+  <img src="assets/basic.png"/>
+</div>
+
+---
+
+<div class="flex-vertical margin-top-5x">
+  <p class="paragraph-2 c-tertiary">Action</p>
+</div>
+<div class="flex-vertical gap-4x justify-center margin-top-2x">
+  <p class="c-blue paragraph-3 emphasis">Es el <strong>bloque portable</strong> más pequeño</p>
+  <img height="410" src="assets/action.png">
+</div>
+
+---
+
+<div class="flex-vertical margin-top-5x">
+  <p class="paragraph-2 c-tertiary">Artifact</p>
+</div>
+<div class="flex-vertical gap-4x justify-center margin-top-2x">
+  <p class="c-blue paragraph-3 emphasis">Es el resultado, ficheros, paquetes, logs <strong>generados</strong> por los actions</p>
+  <div class="big-emoji">📦</div>
+</div>
+
+---
+
+<div class="flex-vertical margin-top-5x">
+  <p class="paragraph-2 c-tertiary">Workflow</p>
+</div>
+<div class="flex-vertical gap-4x justify-center margin-top-2x">
+  <p class="c-blue paragraph-3 emphasis">Es el <strong>conjunto de acciones</strong> ordenadas para realizar un propósito</p>
+  <img height="410" src="assets/workflow.png">
+</div>
+
+---
+
+<div class="flex-vertical margin-top-5x">
+  <p class="paragraph-2 c-tertiary">Event</p>
+</div>
+<div class="flex-vertical gap-4x justify-center margin-top-2x">
+  <p class="c-blue paragraph-3 emphasis">La actividad que <strong>dispara</strong> la ejecución de un workflow</p>
+  <img height="410" src="assets/event.jpg">
+</div>
+
+---
+
+<div class="flex-vertical margin-top-5x">
+  <p class="paragraph-2 c-tertiary">Step</p>
+</div>
+<div class="flex-vertical justify-center margin-top-2x">
+  <p class="c-blue paragraph-3">Cada uno de los pasos que se van ejecutando.</p>
+  <p class="c-blue paragraph-3">Pueden ser <strong>commands</strong> o <strong>actions</strong></p>
+  <img height="410" src="assets/step.jpg">
+</div>
+
+---
+
+<div class="flex-vertical margin-top-5x">
+  <p class="paragraph-2 c-tertiary">Job</p>
+</div>
+<div class="flex-vertical justify-center margin-top-2x">
+  <p class="c-blue paragraph-3">Un <strong>conjunto de steps</strong> para ser ejecutados en un momento dado</p>
+  <img height="410" src="assets/job.png">
+</div>
+
+---
+
+<!-- backgroundColor: #FFFFFF  -->
+
+<div class="animation1">
+
+!!!include(animations/from-event.svg)!!!
 
 </div>

@@ -1,0 +1,184 @@
+<svg width="1526" height="807" viewBox="0 0 1526 807" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Event">
+    <path id="Arrow 11" d="M209.385 248.952C211.568 249.292 213.613 247.798 213.952 245.615L219.486 210.043C219.825 207.86 218.331 205.815 216.148 205.475C213.965 205.136 211.921 206.63 211.581 208.813L206.662 240.433L175.043 235.514C172.86 235.175 170.815 236.669 170.475 238.852C170.136 241.035 171.63 243.079 173.813 243.419L209.385 248.952ZM73.7704 65.3601L206.77 247.36L213.23 242.64L80.2296 60.6399L73.7704 65.3601Z" fill="#FF0000"/>
+    <text id="Event_2" fill="#FF0000" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="0.046875" y="48.78">Event</tspan></text>
+  </g>
+  <g id="Workflow" data-marpit-fragment class="animation-visibility-3x">
+    <g id="Rectangle 2_10" filter="url(#filter9_d_1_136)">
+      <rect x="32" y="258" width="356" height="541" fill="#003F5C"/>
+      <rect x="34" y="260" width="352" height="537" stroke="black" stroke-width="4"/>
+    </g>
+    <text id="Workflow_2" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="94.375" y="544.82">Workflow</tspan></text>
+  </g>
+  <g id="Jobs" data-marpit-fragment class="animation-visibility-3x">
+    <g id="Job1">
+      <g id="Rectangle 2_8" filter="url(#filter7_d_1_136)">
+        <rect x="410" y="258" width="356" height="328" fill="#2F4B7C"/>
+        <rect x="412" y="260" width="352" height="324" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Job" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="544.328" y="451.1">Job</tspan></text>
+    </g>
+    <g id="Job2" class="animation-visibility-6x">
+      <g id="Rectangle 2_9" filter="url(#filter8_d_1_136)">
+        <rect x="410" y="608" width="356" height="191" fill="#2F4B7C"/>
+        <rect x="412" y="610" width="352" height="187" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Job_2" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="544.328" y="740.82">Job</tspan></text>
+    </g>
+  </g>
+  <g id="Steps" data-marpit-fragment class="animation-visibility-3x">
+    <g id="step1">
+      <g id="Rectangle 2_5" filter="url(#filter4_d_1_136)">
+        <rect x="788" y="258" width="356" height="103" fill="#D45087"/>
+        <rect x="790" y="260" width="352" height="99" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Step" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="908.438" y="333.361">Step</tspan></text>
+    </g>
+    <g id="step1_2" data-marpit-fragment class="animation-visibility-3x">
+      <g id="Rectangle 2_6" filter="url(#filter5_d_1_136)">
+        <rect x="788" y="383" width="356" height="124" fill="#D45087"/>
+        <rect x="790" y="385" width="352" height="120" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Step_2" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="908.438" y="463.78">Step</tspan></text>
+    </g>
+    <g id="step3" data-marpit-fragment class="animation-visibility-3x">
+      <g id="Rectangle 2_7" filter="url(#filter6_d_1_136)">
+        <rect x="788" y="529" width="356" height="57" fill="#D45087"/>
+        <rect x="790" y="531" width="352" height="53" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Step_3" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="48" letter-spacing="0em"><tspan x="908.438" y="575.203">Step</tspan></text>
+    </g>
+  </g>
+  <g id="Actions" data-marpit-fragment class="animation-visibility-3x">
+    <g id="Action1">
+      <g id="Rectangle 2" filter="url(#filter0_d_1_136)">
+        <rect x="1166" y="258" width="356" height="48" fill="#A05195"/>
+        <rect x="1168" y="260" width="352" height="44" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Action" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="36" letter-spacing="0em"><tspan x="1279.24" y="294.96">Action</tspan></text>
+    </g>
+    <g id="Action2" data-marpit-fragment class="animation-visibility-3x">
+      <g id="Rectangle 2_2" filter="url(#filter1_d_1_136)">
+        <rect x="1166" y="328" width="356" height="33" fill="#A05195"/>
+        <rect x="1168" y="330" width="352" height="29" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Command" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="36" letter-spacing="0em"><tspan x="1268.45" y="357.46">Command</tspan></text>
+    </g>
+    <g id="Action2_2" data-marpit-fragment class="animation-visibility-3x">
+      <g id="Rectangle 2_3" filter="url(#filter2_d_1_136)">
+        <rect x="1166" y="383" width="356" height="61" fill="#A05195"/>
+        <rect x="1168" y="385" width="352" height="57" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Action_2" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="36" letter-spacing="0em"><tspan x="1279.24" y="426.46">Action</tspan></text>
+    </g>
+    <g id="Action2_3" data-marpit-fragment class="animation-visibility-3x">
+      <g id="Rectangle 2_4" filter="url(#filter3_d_1_136)">
+        <rect x="1166" y="466" width="356" height="41" fill="#A05195"/>
+        <rect x="1168" y="468" width="352" height="37" stroke="black" stroke-width="4"/>
+      </g>
+      <text id="Action_3" fill="white" xml:space="preserve" style="white-space: pre" font-family="JetBrains Mono" font-size="36" letter-spacing="0em"><tspan x="1279.24" y="499.46">Action</tspan></text>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_d_1_136" x="1162" y="258" width="364" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter1_d_1_136" x="1162" y="328" width="364" height="41" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter2_d_1_136" x="1162" y="383" width="364" height="69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter3_d_1_136" x="1162" y="466" width="364" height="49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter4_d_1_136" x="784" y="258" width="364" height="111" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter5_d_1_136" x="784" y="383" width="364" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter6_d_1_136" x="784" y="529" width="364" height="65" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter7_d_1_136" x="406" y="258" width="364" height="336" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter8_d_1_136" x="406" y="608" width="364" height="199" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+    <filter id="filter9_d_1_136" x="28" y="258" width="364" height="549" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+    </filter>
+  </defs>
+</svg>
