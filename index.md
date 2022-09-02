@@ -16,7 +16,6 @@ _paginate: false
 <div class="flex-vertical">
   <h1>Raúl Anatol</h1>
   <h1>@raulanatol</h1>
-  !!!include(atoms/_social.md)!!!
 </div>
 
 ---
