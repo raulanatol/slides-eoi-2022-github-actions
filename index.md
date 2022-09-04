@@ -243,7 +243,7 @@ _paginate: false
   <p class="paragraph-2 c-tertiary">Action</p>
 </div>
 <div class="flex-vertical gap-4x justify-center margin-top-2x">
-  <p class="c-blue paragraph-3 emphasis">Es el <strong>bloque portable</strong> más pequeño</p>
+  <p class="c-blue paragraph-3 emphasis">Es el <b>bloque portable</b> más pequeño</p>
   <img height="410" src="assets/action.png">
 </div>
 
@@ -253,7 +253,7 @@ _paginate: false
   <p class="paragraph-2 c-tertiary">Artifact</p>
 </div>
 <div class="flex-vertical gap-4x justify-center margin-top-2x">
-  <p class="c-blue paragraph-3 emphasis">Es el resultado, ficheros, paquetes, logs <strong>generados</strong> por los actions</p>
+  <p class="c-blue paragraph-3 emphasis">Es el resultado, ficheros, paquetes, logs <b>generados</b> por los actions</p>
   <div class="big-emoji">📦</div>
 </div>
 
@@ -263,7 +263,7 @@ _paginate: false
   <p class="paragraph-2 c-tertiary">Workflow</p>
 </div>
 <div class="flex-vertical gap-4x justify-center margin-top-2x">
-  <p class="c-blue paragraph-3 emphasis">Es el <strong>conjunto de acciones</strong> ordenadas para realizar un propósito</p>
+  <p class="c-blue paragraph-3 emphasis">Es el <b>conjunto de acciones</b> ordenadas para realizar un propósito</p>
   <img height="410" src="assets/workflow.png">
 </div>
 
@@ -273,7 +273,7 @@ _paginate: false
   <p class="paragraph-2 c-tertiary">Event</p>
 </div>
 <div class="flex-vertical gap-4x justify-center margin-top-2x">
-  <p class="c-blue paragraph-3 emphasis">La actividad que <strong>dispara</strong> la ejecución de un workflow</p>
+  <p class="c-blue paragraph-3 emphasis">La actividad que <b>dispara</b> la ejecución de un workflow</p>
   <img height="410" src="assets/event.jpg">
 </div>
 
@@ -284,7 +284,7 @@ _paginate: false
 </div>
 <div class="flex-vertical justify-center margin-top-2x">
   <p class="c-blue paragraph-3">Cada uno de los pasos que se van ejecutando.</p>
-  <p class="c-blue paragraph-3">Pueden ser <strong>commands</strong> o <strong>actions</strong></p>
+  <p class="c-blue paragraph-3">Pueden ser <b>commands</b> o <b>actions</b></p>
   <img height="410" src="assets/step.jpg">
 </div>
 
@@ -294,7 +294,7 @@ _paginate: false
   <p class="paragraph-2 c-tertiary">Job</p>
 </div>
 <div class="flex-vertical justify-center margin-top-2x">
-  <p class="c-blue paragraph-3">Un <strong>conjunto de steps</strong> para ser ejecutados en un momento dado</p>
+  <p class="c-blue paragraph-3">Un <b>conjunto de steps</b> para ser ejecutados en un momento dado</p>
   <img height="410" src="assets/job.png">
 </div>
 
@@ -307,3 +307,204 @@ _paginate: false
 !!!include(animations/from-event.svg)!!!
 
 </div>
+
+---
+
+<!-- _class: nine-areas align-center  -->
+
+<p class="area-2 c-blue paragraph-2 text-center">Documentación</p>
+<div class="justify-center area-5 margin-top">
+  <img src="assets/documentation.png">
+</div>
+
+::: slideLink https://docs.github.com/en/actions external-link-black
+:::
+
+---
+
+<!-- _class: theme-intro -->
+
+![bg](assets/home.png)
+
+<div class="area-4">
+  <img src="assets/using.png"/>
+</div>
+<div class="area-5-6 flex-vertical justify-center align-start">
+  <p class="paragraph-1 c-secondary">Usando Actions</p>
+</div>
+
+---
+
+<div class="flex-vertical justify-center">
+  <p class="paragraph-2 c-blue">Estructura</p>
+  <img src="assets/folders.png"/>
+</div>
+
+---
+
+<!-- class: invert -->
+<!-- _backgroundColor: #2A2B2A -->
+<div class="flex-vertical h100 justify-start">
+<p class="area-2 c-blue paragraph-2 text-center">Estructura del Workflow</p>
+
+<div class="flex-vertical h100 w100">
+<div class="h100 w100">
+
+```yml
+name: Nombre del workflow
+on: # Definición del event
+jobs: # Definición de los jobs
+```
+
+</div>
+
+<div class="h100 w100">
+
+```yml
+name: Hola mundo
+on: [ push ]
+jobs:
+  build:
+    name: Saludos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola mundo
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: 'Mona the Octocat'
+        id: hello
+      - name: Echo con el tiempo transcurrido
+        run: echo 'El tiempo transcurrido ha sido ${{ steps.hello.outputs.time }}.'
+```
+
+</div>
+
+</div>
+</div>
+
+::: slideLink https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions external-link-black
+:::
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">¿Cómo tengo que definir el <b>"on"</b> para que el workflow se lance después de cada push?</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: invert -->
+
+```yaml
+on: [ push ]
+on: push
+```
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">¿Cómo tengo que definir el <b>"on"</b> para que el workflow se lance después de cada push?</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: nine-areas align-center  -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">¿Qué tengo que hacer para que se lance un workflow después de un <b>comentario</b>?</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: invert -->
+
+```yaml
+on:
+  issue_comment:
+    types:
+      - created
+```
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">¿Cómo tengo que definir el <b>"on"</b> para que el workflow se lance después de cada push?</p>
+</div>
+
+```yaml
+on:
+  issues:
+    types:
+      - opened
+```
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">Tengo un repo popular y me gustaría saber cuándo me hacen un <b>fork</b> ¿cómo tengo que poner el on del workflow?
+</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+```yaml
+on:
+  fork
+```
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">Tengo un repo popular y me gustaría saber cuándo me hacen un <b>fork</b> ¿cómo tengo que poner el on del workflow?
+</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/enigma-small.png"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">En mi empresa usamos la <b>wiki</b> de github en los repos y queremos enviar a <b>slack un mensaje</b> cada vez que alguien haga un cambio en la wiki ¿cómo tengo que poner el on del workflow?
+</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+
+```yaml
+on:
+  gollum
+```
+
+<div class="area-4-6 flex-horizontal align-center justify-center">
+  <img src="assets/gollum.jpg"/>
+  <p class="paragraph-2 c-secondary emphasis text-center">Tengo un repo popular y me gustaría saber cuándo me hacen un <b>fork</b> ¿cómo tengo que poner el on del workflow?
+</p>
+</div>
+
+---
+
+<!-- _backgroundColor: #22272E -->
+<!-- _class: align-center  -->
+
+<div class="flex-vertical align-center justify-center">
+  <img src="assets/hero.png"/>
+
+::: slideLink https://github-actions-hero.now.sh/ external-link-black
+:::
+</div>
+
+---
+

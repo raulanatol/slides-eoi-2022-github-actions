@@ -131,6 +131,11 @@ section.align-center {
   grid-column: 2;
 }
 
+.area-2-3 {
+  grid-row: 1;
+  grid-column: 2/4;
+}
+
 .area-3 {
   grid-row: 1;
   grid-column: 3;
@@ -487,6 +492,10 @@ footer.wave-1 {
 
 .h100 {
   height: 100%;
+}
+
+.w100 {
+  width: 100%;
 }
 
 .hp530 {
