@@ -19,7 +19,9 @@
   --left-space: 100px;
   --right-space: 100px;
   --bottom-space: 100px;
-  --top-title-position: 83px;
+  --top-space: 88px;
+
+  --base-padding: var(--top-space) var(--left-space) var(--bottom-space) var(--left-space);
 }
 
 * {
@@ -31,6 +33,7 @@
 
 h1 {
   font-size: var(--font-size-title);
+  margin: 0;
 }
 
 p {

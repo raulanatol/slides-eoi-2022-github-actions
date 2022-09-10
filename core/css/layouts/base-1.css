@@ -7,17 +7,17 @@ section[data-class='base-1'] {
     "subtitle"
     "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 30% minmax(200px, 1fr) 20%;
-  grid-gap: 5px;
-  padding: 0 100px 0 100px;
+  grid-template-rows: 40px minmax(200px, 1fr) 20%;
+  grid-gap: var(--font-size-title);
+  padding: var(--base-padding);
   background: var(--color-background);
   color: var(--color-font-primary);
 }
 
 section[data-class='base-1'] h1 {
-  align-self: center;
-  text-align: center;
   grid-area: title;
+  align-self: start;
+  text-align: center;
   font-weight: 500;
 }
 
@@ -35,6 +35,7 @@ section[data-class='base-1'] p > strong {
 }
 
 section[data-class='base-1'] img {
+  grid-area: image;
   max-height: 100%;
   max-width: 100%;
 }

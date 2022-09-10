@@ -83,15 +83,25 @@ Et sint modi dolor. Consectetur nisi earum. Et qui **earum** sint ipsam saepe.
 
 # vertical-one-column
 
-- One
+- One: This is the **first** point!
 - Two
-- Three
+- **Three**
 - four
 - five
-- six
+- six: and this is the **sixth**!
 - seven
 - eight
-- nine
+- **nine**
 - ten
+
+---
+
+<!-- _layout: vertical-one-column -->
+
+# Base-1 with image and content
+
+This is the content
+
+![](assets/docker.png)
 
 ---
