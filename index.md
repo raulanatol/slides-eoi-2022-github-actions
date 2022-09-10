@@ -7,7 +7,9 @@ paginate: false
 _paginate: false
 ---
 
-<!-- _class: two-columns -->
+# TODO intro:
+
+<!-- _class: two-columns 
 
 <div class="flex-vertical">
   <img class="avatar margin-bottom" src="assets/me.jpeg"/>
@@ -18,5 +20,78 @@ _paginate: false
   <h1>@raulanatol</h1>
   !!!include(atoms/_social.md)!!!
 </div>
+-->
+
+---
+
+# TODO Code:
+
+```javascript
+const name = 'John';
+```
+
+```shell
+echo "Hello"
+```
+
+---
+
+<!-- _layout: intro -->
+<!-- _footer: ![](assets/logos.png) -->
+![bg](assets/home.png)
+
+# Intro
+
+---
+
+<!-- _layout: intro -->
+<!-- _footer: ![](assets/logos.png) -->
+![bg](assets/home.png)
+
+# Intro with content
+
+This is a content
+
+---
+
+<!-- _layout: base-1 -->
+
+# Base-1
+
+Laborum ut **rem** ipsa eum exercitationem aspernatur quasi eum. Est totam amet illum voluptas animi necessitatibus. Eum
+nihil voluptatem voluptas quidem deserunt et nam et **ipsam**. Ipsum repellat corrupti. Cupiditate ut sint.
+Dolorem voluptas accusantium **provident** autem. Quia dolor molestiae eum. Recusandae excepturi adipisci animi
+veritatis
+itaque.
+Et sint modi dolor. Consectetur nisi earum. Et qui **earum** sint ipsam saepe.
+
+---
+
+<!-- _layout: base-1 -->
+
+# Base-1 with image
+
+![](assets/docker.png)
+
+---
+
+![bg](assets/home.png)
+
+---
+
+<!-- _layout: vertical-one-column -->
+
+# vertical-one-column
+
+- One
+- Two
+- Three
+- four
+- five
+- six
+- seven
+- eight
+- nine
+- ten
 
 ---

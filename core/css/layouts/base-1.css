@@ -1,0 +1,40 @@
+/* @theme layout-base-1 */
+
+section[data-class='base-1'] {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "subtitle"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 30% minmax(200px, 1fr) 20%;
+  grid-gap: 5px;
+  padding: 0 100px 0 100px;
+  background: var(--color-background);
+  color: var(--color-font-primary);
+}
+
+section[data-class='base-1'] h1 {
+  align-self: center;
+  text-align: center;
+  grid-area: title;
+  font-weight: 500;
+}
+
+section[data-class='base-1'] p {
+  grid-area: subtitle;
+  justify-self: center;
+  font-size: var(--font-size-content);
+  margin: 5px;
+  text-align: center;
+  max-height: 100%;
+}
+
+section[data-class='base-1'] p > strong {
+  color: var(--color-font-empasis);
+}
+
+section[data-class='base-1'] img {
+  max-height: 100%;
+  max-width: 100%;
+}
