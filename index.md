@@ -105,3 +105,29 @@ This is the content
 ![](assets/docker.png)
 
 ---
+
+<!-- _layout: vertical-two-columns -->
+
+# Column1
+
+This is the content
+
+# Column2
+
+This is the content of the column2
+
+---
+
+<!-- _layout: vertical-two-columns-with-title -->
+
+# Title
+
+## Column1
+
+This is the content
+
+## Column2
+
+This is the content of the column2
+
+---
