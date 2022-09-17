@@ -19,6 +19,8 @@
     "@marp-team/marp-core": "3.3.2",
     "markdown-it-container": "3.0.0",
     "markdown-it-include": "2.0.0",
-    "ncp": "2.0.0"
+    "markdown-it-prism": "2.3.0",
+    "ncp": "2.0.0",
+    "prismjs": "1.29.0"
   }
 }
