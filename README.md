@@ -1,5 +1,31 @@
 # Base slides
 
+## Backgrounds
+
+```md
+<!-- _layout: bg-default -->
+```
+
+### bg-default
+
+![](docs/backgrounds/default.png)
+
+### bg-blue
+
+![](docs/backgrounds/blue.png)
+
+### bg-gray
+
+![](docs/backgrounds/gray.png)
+
+### bg-green
+
+![](docs/backgrounds/green.png)
+
+### bg-violet
+
+![](docs/backgrounds/violet.png)
+
 ## Layouts
 
 ### Intro

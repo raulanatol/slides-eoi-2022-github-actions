@@ -21,7 +21,7 @@ section.title-1.variant-violet {
 }
 
 section.title-1.variant-green {
-  background-image: linear-gradient(to right, #00b4db, #0083b0) !important;
+  background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%);
 }
 
 section.title-1 > h1 {

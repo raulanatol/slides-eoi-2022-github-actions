@@ -1,0 +1,21 @@
+/* @theme layout-intro */
+
+section.bg-default {
+  background: linear-gradient(132deg, rgb(1, 96, 105) 0.00%, rgb(0, 72, 95) 100.00%) !important;
+}
+
+section.bg-blue {
+  background-image: linear-gradient(to right, #00b4db, #0083b0) !important;
+}
+
+section.bg-gray {
+  background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%) !important;
+}
+
+section.bg-violet {
+  background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%) !important;
+}
+
+section.bg-green {
+  background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%) !important;
+}
