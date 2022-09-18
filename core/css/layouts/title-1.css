@@ -30,6 +30,6 @@ section.title-1 > h1 {
   text-align: center;
 }
 
-section[data-class='title-1'] p {
+section.title-1 > p {
   text-align: center;
 }

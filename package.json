@@ -7,7 +7,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf public && npm run -s og-image && npm run -s deck",
+    "build": "./.scripts/build.sh",
     "deck": "marp --no-stdin index.md -o public/index.html && ncp assets public/assets",
     "og-image": "marp --no-stdin index.md -o public/og-image.jpg",
     "pdf": "marp --pdf index.md",
