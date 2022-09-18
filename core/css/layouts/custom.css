@@ -25,6 +25,10 @@ section.bg-green {
   background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%) !important;
 }
 
+section.bg-white {
+  background: #FFFFFF;
+}
+
 section.bg-code {
   background: #2D2D2D !important;
 }
