@@ -74,6 +74,42 @@ Laborum ut **content**
 
 ![](docs/fullimage.png)
 
+### two-columns-image-content
+
+```md
+<!-- _layout: two-columns-image-content -->
+
+::: group content
+
+Content
+
+Content 2
+
+Content 3
+
+:::
+
+![](assets/home.png)
+```
+
+#### variant-right
+
+```md
+<!-- _layout: two-columns-image-content variant-right -->
+
+::: group content
+
+Content
+
+Variant right
+
+Content 3
+
+:::
+
+![](assets/home.png)
+```
+
 ### Vertical-one-column
 
 ```md

@@ -20,6 +20,7 @@ const loadEngine = (options) => {
     .use(markdownItInclude)
     .use(require('./core/config/prismjs').run())
     .use(markdownItContainer, 'slideLink', require('./lib/components/slideLink'))
+    .use(markdownItContainer, 'group', require('./lib/components/group'))
 
   return marp;
 }

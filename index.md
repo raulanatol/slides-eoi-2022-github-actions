@@ -62,6 +62,38 @@ This is a content
 
 ---
 
+<!-- _layout: two-columns-image-content -->
+
+::: group content
+
+Content
+
+Content 2
+
+Content 3
+
+:::
+
+![](assets/home.png)
+
+---
+
+<!-- _layout: two-columns-image-content variant-right -->
+
+::: group content
+
+Content
+
+Variant right
+
+Content 3
+
+:::
+
+![](assets/home.png)
+
+---
+
 <!-- _layout: base-1 -->
 
 # Base-1
