@@ -57,19 +57,43 @@ This is a content
 
 <!-- _layout: title-1 -->
 
-# This is the title
+# title-1 default
+
+---
+
+<!-- _layout: title-1 variant-blue -->
+
+# title-1 variant-blue
+
+---
+
+<!-- _layout: title-1 variant-gray -->
+
+# title-1 variant-gray
+
+---
+
+<!-- _layout: title-1 variant-violet -->
+
+# title-1 variant-violet
+
+---
+
+<!-- _layout: title-1 variant-green -->
+
+# title-1 variant-green
 
 ---
 
 <!-- _layout: title-1 -->
 
-# This is the long title with multiple information
+# This is title-1 with a long text with multiple lines
 
 ---
 
 <!-- _layout: title-1 -->
 
-# This is the title with image
+# This is the title-1 with image
 
 ![](https://placeholder.pics/svg/450)
 
