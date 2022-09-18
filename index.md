@@ -1,6 +1,6 @@
 ---
 marp: true
-title: Intro
+title: Base slides
 theme: base
 size: 16:9
 paginate: false
