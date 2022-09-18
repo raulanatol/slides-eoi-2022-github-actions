@@ -7,43 +7,6 @@ paginate: false
 _paginate: false
 ---
 
-# TODO intro:
-
-<!-- _class: two-columns 
-
-<div class="flex-vertical">
-  <img class="avatar margin-bottom" src="assets/me.jpeg"/>
-  <img width="350px" src="assets/zazume.svg"/>
-</div>
-<div class="flex-vertical">
-  <h1>Raúl Anatol</h1>
-  <h1>@raulanatol</h1>
-  !!!include(atoms/_social.md)!!!
-</div>
--->
-
----
-
-# TODO Code:
-
-```javascript
-const name = 'John';
-```
-
-```shell
-echo "Hello"
-```
-
----
-
-<!-- _layout: intro -->
-<!-- _footer: ![](assets/logos.png) -->
-![bg](assets/home.png)
-
-# Intro
-
----
-
 <!-- _layout: intro -->
 <!-- _footer: ![](assets/logos.png) -->
 
@@ -174,5 +137,46 @@ This is the content
 ## Column2
 
 This is the content of the column2
+
+---
+
+TODO
+
+---
+
+# TODO intro:
+
+<!-- _class: two-columns 
+
+<div class="flex-vertical">
+  <img class="avatar margin-bottom" src="assets/me.jpeg"/>
+  <img width="350px" src="assets/zazume.svg"/>
+</div>
+<div class="flex-vertical">
+  <h1>Raúl Anatol</h1>
+  <h1>@raulanatol</h1>
+  !!!include(atoms/_social.md)!!!
+</div>
+-->
+
+---
+
+# TODO Code:
+
+```javascript
+const name = 'John';
+```
+
+```shell
+echo "Hello"
+```
+
+---
+
+<!-- _layout: intro -->
+<!-- _footer: ![](assets/logos.png) -->
+![bg](assets/home.png)
+
+# Intro
 
 ---
