@@ -1,0 +1,32 @@
+/* @theme layout-title-1 */
+
+section[data-class='title-1'] {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+  justify-content: center;
+  background-image: linear-gradient(to right, #00b4db, #0083b0) !important;
+}
+
+section[data-class='title-1'] h1 {
+  color: #FFFFFF;
+  font-size: var(--font-size-big) !important;
+  text-align: center;
+}
+
+section[data-class='title-1'] p {
+  text-align: center;
+  /*grid-area: subtitle;*/
+  /*justify-self: center;*/
+  /*font-size: 2rem;*/
+}
+
+section[data-class='title-1'] footer {
+  /*grid-area: footer;*/
+  /*justify-self: center;*/
+  /*align-self: center;*/
+}
+
+section[data-class='title-1'] footer img {
+  /*max-height: 120px;*/
+}

@@ -7,22 +7,48 @@
 ```md
 <!-- _layout: intro -->  
 <!-- _footer: ![](assets/logos.png) -->  
-![bg](assets/home.png)  
-  
-# Intro  
-  
+![bg](assets/home.png)
+
+# Intro
+
 This is a content
 ```
 
 ![](docs/intro.png)
 
+### Title-1
+
+```md
+<!-- _layout: title-1 -->
+
+# This is the title with image
+
+![](https://placeholder.pics/svg/450)
+```
+
+![bg](docs/title-1.png)
+
+#### With image
+
+Note: max height: 450
+
+```md
+<!-- _layout: title-1 -->
+
+# This is the title with image
+
+![](https://placeholder.pics/svg/450)
+```
+
+![bg](docs/title-1-withImage.png)
+
 ### Base-1
 
 ```md
 <!-- _layout: base-1 -->  
-  
-# Base-1  
-  
+
+# Base-1
+
 Laborum ut **content**
 ```
 
@@ -32,9 +58,9 @@ Laborum ut **content**
 
 ```md
 <!-- _layout: base-1 -->  
-  
-# Base-1 with image  
-  
+
+# Base-1 with image
+
 ![](assets/docker.png)
 ```
 
@@ -51,21 +77,21 @@ Laborum ut **content**
 ### Vertical-one-column
 
 ```md
-  
+
 <!-- _layout: vertical-one-column -->  
-  
-# vertical-one-column  
-  
-- One  
-- Two  
-- Three  
-- four  
-- five  
-- six  
-- seven  
-- eight  
-- nine  
-- ten  
+
+# vertical-one-column
+
+- One
+- Two
+- Three
+- four
+- five
+- six
+- seven
+- eight
+- nine
+- ten
 
 ```
 
@@ -74,13 +100,13 @@ Laborum ut **content**
 #### With image + content
 
 ```md
-  
+
 <!-- _layout: vertical-one-column -->  
-  
-## Base-1 with image and content  
-  
-This is the content  
-  
+
+## Base-1 with image and content
+
+This is the content
+
 ![](assets/docker.png)
 ```
 
@@ -108,14 +134,14 @@ This is the content of column2
 ```md
 <!-- _layout: vertical-two-columns-with-title -->
 
-# Title  
-  
-## Column1  
-  
-This is the content  
-  
-## Column2  
-  
+# Title
+
+## Column1
+
+This is the content
+
+## Column2
+
 This is the content of the column2
 
 ```

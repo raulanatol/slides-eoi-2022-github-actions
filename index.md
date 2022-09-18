@@ -46,11 +46,32 @@ echo "Hello"
 
 <!-- _layout: intro -->
 <!-- _footer: ![](assets/logos.png) -->
+
 ![bg](assets/home.png)
 
 # Intro with content
 
 This is a content
+
+---
+
+<!-- _layout: title-1 -->
+
+# This is the title
+
+---
+
+<!-- _layout: title-1 -->
+
+# This is the long title with multiple information
+
+---
+
+<!-- _layout: title-1 -->
+
+# This is the title with image
+
+![](https://placeholder.pics/svg/450)
 
 ---
 

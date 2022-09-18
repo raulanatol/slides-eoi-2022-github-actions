@@ -9,6 +9,7 @@
   --marpit-root-font-size: 16px;
   --font-size-title: 2rem;
   --font-size-content: 1.8rem;
+  --font-size-big: 6rem;
 
   --color-background: #FFFFFF;
   --color-font-base: #333444;
@@ -50,4 +51,8 @@ a {
 
 [data-bespoke-marp-fragment=inactive] {
   opacity: 0;
+}
+
+section {
+  background: var(--color-background);
 }
