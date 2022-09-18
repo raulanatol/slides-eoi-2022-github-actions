@@ -7,6 +7,7 @@ section.two-columns-image-content {
   grid-gap: 5px;
   color: var(--color-font-base);
   font-size: var(--font-size-content);
+  padding: 2rem;
 }
 
 section.two-columns-image-content.variant-right {
