@@ -3,9 +3,8 @@
 section.grid {
   display: flex;
   flex-direction: column;
-  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space);
+  padding: var(--font-size-title) var(--left-space) var(--bottom-space) var(--right-space);
   background: var(--color-background);
-  gap: var(--font-size-title);
   color: var(--color-font-primary);
 }
 
@@ -13,10 +12,9 @@ section.grid > p {
   display: grid;
   grid-template-columns:  repeat(2, 1fr);
   grid-template-rows:  repeat(2, 1fr);
-  gap: var(--font-size-big);
+  gap: var(--font-size-title);
   justify-items: center;
   align-items: center;
-  height: 100%;
 }
 
 section.grid > h1 {
@@ -24,5 +22,5 @@ section.grid > h1 {
 }
 
 section.grid > * > img {
-  height: 200px;
+  object-fit: scale-down;
 }
