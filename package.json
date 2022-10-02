@@ -17,6 +17,7 @@
   "devDependencies": {
     "@marp-team/marp-cli": "2.1.2",
     "@marp-team/marp-core": "3.3.2",
+    "markdown-it-attrs": "4.1.4",
     "markdown-it-container": "3.0.0",
     "markdown-it-include": "2.0.0",
     "markdown-it-prism": "2.3.0",
