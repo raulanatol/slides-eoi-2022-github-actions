@@ -209,3 +209,16 @@ This is the content of the column2
 ```
 
 ![](docs/vertical-two-columns-with-title.png)
+
+### Wrap
+
+```md
+<!-- _layout: grid -->
+
+# Title
+
+![](assets/docker.png)![](assets/docker.png)![](assets/docker.png)![](assets/docker.png)
+
+```
+
+![](docs/grid.png)

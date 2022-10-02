@@ -172,6 +172,14 @@ This is the content of the column2
 
 ---
 
+<!-- _layout: grid -->
+
+# Title
+
+![](assets/docker.png)![](assets/docker.png)![](assets/docker.png)![](assets/docker.png)
+
+---
+
 TODO
 
 ---
@@ -202,21 +210,3 @@ const name = 'John';
 ```shell
 echo "Hello"
 ```
-
----
-
-<!-- _layout: intro -->
-<!-- _footer: ![](assets/logos.png) -->
-![bg](assets/home.png)
-
-# Intro
-
----
-
-<!-- _layout: intro bg-green -->
-
-# test
-
-Asdasd
-asda
-sada
