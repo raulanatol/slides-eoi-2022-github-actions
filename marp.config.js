@@ -2,7 +2,7 @@ const {Marp} = require('@marp-team/marp-core');
 const markdownItInclude = require('markdown-it-include');
 const markdownItContainer = require('markdown-it-container');
 const markdownItAttrs = require('markdown-it-attrs');
-const {linksApply} = require("./lib/rules/links");
+const {linksApply} = require("./core/rules/links");
 
 const canonicalUrl = process.env.URL || undefined
 const ogImage = (() => {
@@ -22,14 +22,16 @@ const loadEngine = (options) => {
     }
   });
 
-  marp.customDirectives.local.layout = require('./lib/directives/layout');
+  marp.customDirectives.local.layout = require('./core/directives/layout');
 
   marp
     .use(markdownItInclude)
     .use(markdownItAttrs)
     .use(require('./core/config/prismjs').run())
-    .use(markdownItContainer, 'slideLink', require('./lib/components/slideLink'))
-    .use(markdownItContainer, 'group', require('./lib/components/group'));
+    .use(markdownItContainer, 'slideLink', require('./core/components/slideLink'))
+    .use(markdownItContainer, 'group', require('./core/components/group'))
+    .use(markdownItContainer, 'ribbon', require('./core/components/ribbon'))
+  ;
 
   linksApply(marp.markdown);
 

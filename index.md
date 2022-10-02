@@ -172,7 +172,7 @@ This is the content of the column2
 
 ---
 
-<!-- _layout: grid -->
+<!-- _layout: grid bg-violet -->
 
 # Title
 
@@ -201,12 +201,18 @@ TODO
 
 ---
 
-# TODO Code:
+::: ribbon top-left
+ts
+:::
 
-```javascript
-const name = 'John';
-```
+::: ribbon top-right error
+deprecated
+:::
 
-```shell
-echo "Hello"
-```
+::: ribbon bottom-left warning
+js
+:::
+
+::: ribbon bottom-right success
+html
+:::
