@@ -11,3 +11,6 @@ build:
 
 init:
 	@npm install
+
+sync-template:
+	@sh .scripts/sync-template.sh
