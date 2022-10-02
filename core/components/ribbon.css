@@ -7,7 +7,6 @@
   height: calc(100% - 20px);
   box-sizing: border-box;
   display: block;
-  background: #FFFFFF;
   box-shadow: 0 0 15px rgba(10, 10, 10, 0.58);
 }
 
