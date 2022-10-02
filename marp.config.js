@@ -12,7 +12,13 @@ const ogImage = (() => {
 })();
 
 const loadEngine = (options) => {
-  const marp = new Marp(options);
+  const marp = new Marp({
+    ...options,
+    emoji: {
+      shortcode: false,
+      unicode: false
+    }
+  });
 
   marp.customDirectives.local.layout = require('./lib/directives/layout');
 
