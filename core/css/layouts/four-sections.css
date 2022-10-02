@@ -1,0 +1,17 @@
+/* @theme layout-four-section */
+
+section.four-sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--font-size-big);
+  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space);
+  background: var(--color-background);
+  color: var(--color-font-primary);
+  justify-content: center;
+  align-items: center;
+}
+
+section.four-sections > * > img {
+  height: 200px;
+}

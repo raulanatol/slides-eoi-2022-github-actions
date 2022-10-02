@@ -17,9 +17,22 @@ section.bg-gray {
   background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%) !important;
 }
 
+section.bg-gray > * > a {
+  color: #a8e4e3;
+}
+
 section.bg-violet {
   background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%) !important;
 }
+
+section.bg-violet > h1 {
+  color: white !important;
+}
+
+section.bg-violet > * > a {
+  color: #FFFFFF;
+}
+
 
 section.bg-green {
   background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%) !important;
@@ -37,6 +50,27 @@ section.bg-code > h1 {
   color: #FFFFFF;
 }
 
+section.bg-code > h2 {
+  color: #FFFFFF;
+}
+
+section.bg-code > * > a {
+  color: #CCCCCC;
+}
+
+section.bg-code > blockquote {
+  color: #DF6A73;
+}
+
+section.font-1-5x {
+  font-size: 1.5rem;
+}
+
 section.font-2x {
   font-size: 2rem;
+}
+
+section.font-2x > blockquote {
+  font-size: 2.5rem;
+  padding: 2rem !important;
 }

@@ -5,7 +5,7 @@ section.title-1 {
   flex-direction: column;
   grid-gap: 5px;
   justify-content: center;
-  background: linear-gradient(132deg, rgb(1, 96, 105) 0.00%, rgb(0, 72, 95) 100.00%) !important;
+  background: linear-gradient(132deg, rgb(1, 96, 105) 0.00%, rgb(0, 72, 95) 100.00%);
 }
 
 section.title-1.variant-blue {
@@ -27,6 +27,12 @@ section.title-1.variant-green {
 section.title-1 > h1 {
   color: #FFFFFF;
   font-size: var(--font-size-big) !important;
+  text-align: center;
+}
+
+section.title-1 > h2 {
+  color: #FFFFFF;
+  font-size: var(--font-size-h2) !important;
   text-align: center;
 }
 

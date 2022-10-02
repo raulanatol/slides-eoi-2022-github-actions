@@ -15,6 +15,11 @@ section.vertical-one-column h1 {
   font-weight: 500;
 }
 
+section.vertical-one-column h2 {
+  text-align: center;
+  font-size: var(--font-size-h2);
+}
+
 section.vertical-one-column p {
   grid-area: subtitle;
   justify-self: center;
@@ -28,8 +33,8 @@ section.vertical-one-column ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  gap: var(--font-size-content);
+  /*height: 100%;*/
 }
 
 section.vertical-one-column strong {
@@ -38,4 +43,14 @@ section.vertical-one-column strong {
 
 section.vertical-one-column img {
   max-height: 400px;
+}
+
+section.vertical-one-column.no-padding {
+  padding: 0;
+}
+
+section.vertical-one-column > blockquote {
+  font-size: 2.5rem;
+  padding: 2rem !important;
+  font-style: italic;
 }

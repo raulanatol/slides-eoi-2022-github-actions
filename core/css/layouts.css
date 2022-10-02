@@ -9,4 +9,5 @@
 @import "./layouts/vertical-one-column.css";
 @import "./layouts/vertical-two-columns.css";
 @import "./layouts/vertical-two-columns-with-title.css";
-@import "./layouts/grid.css";
+@import "./layouts/one-row.css";
+@import "./layouts/four-sections.css";
