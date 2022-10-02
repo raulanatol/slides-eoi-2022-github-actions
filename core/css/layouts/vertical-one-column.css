@@ -1,26 +1,27 @@
 /* @theme layout-vertical-one-column */
 
-section.vertical-one-column {
+.vertical-one-column {
   display: flex;
   flex-direction: column;
   gap: var(--font-size-title);
-  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space);
+  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space) !important;
   color: var(--color-font-primary);
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
-section.vertical-one-column h1 {
+.vertical-one-column > h1 {
   text-align: center;
   font-weight: 500;
 }
 
-section.vertical-one-column h2 {
+.vertical-one-column h2 {
   text-align: center;
   font-size: var(--font-size-h2);
 }
 
-section.vertical-one-column p {
+.vertical-one-column p {
   grid-area: subtitle;
   justify-self: center;
   margin: 5px;
@@ -28,7 +29,7 @@ section.vertical-one-column p {
   max-height: 100%;
 }
 
-section.vertical-one-column ul {
+.vertical-one-column ul {
   text-align: center;
   list-style: none;
   display: flex;
@@ -37,19 +38,19 @@ section.vertical-one-column ul {
   /*height: 100%;*/
 }
 
-section.vertical-one-column strong {
+.vertical-one-column strong {
   color: var(--color-font-empasis);
 }
 
-section.vertical-one-column img {
+.vertical-one-column img {
   max-height: 400px;
 }
 
-section.vertical-one-column.no-padding {
+.vertical-one-column.no-padding {
   padding: 0;
 }
 
-section.vertical-one-column > blockquote {
+.vertical-one-column > blockquote {
   font-size: 2.5rem;
   padding: 2rem !important;
   font-style: italic;
