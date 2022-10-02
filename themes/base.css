@@ -9,6 +9,7 @@
 
   --marpit-root-font-size: 16px;
   --font-size-title: 2rem;
+  --font-size-h2: 1.9rem;
   --font-size-content: 1.8rem;
   --font-size-big: 6rem;
 
@@ -17,6 +18,9 @@
   --color-font-empasis: #0099FF;
   --color-font-primary: #333444;
   --color-font-secondary: #FFFFFF;
+  --color-font-black: #000000;
+
+  --color-highlight-blue: #6fb8f5;
 
   --left-space: 100px;
   --right-space: 100px;
@@ -28,18 +32,18 @@
 
 * {
   box-sizing: border-box;
-  font-size: var(--font-size-content);
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-size: var(--font-size-title);
   margin: 0;
+  padding: 0;
 }
 
 p {
-  font-size: var(--font-size-content);
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -54,8 +58,70 @@ a {
   opacity: 0;
 }
 
-section {
-  background: var(--color-background);
+
+/*******************************/
+/*           TABLES            */
+/*******************************/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 1px;
+  border-radius: 6px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table td::selection, th::selection {
+  background: var(--color-highlight-blue);
+}
+
+table td::-moz-selection, th::-moz-selection {
+  background: var(--color-highlight-blue);
+}
+
+th,
+td {
+  text-align: center;
+  padding: 15px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--color-font-black);
+}
+
+thead th {
+  background-color: #ffa600;
+  border: 0;
+}
+
+thead tr {
+  background: #ffa600;
+  border: none;
+}
+
+table tr:nth-child(2n+1) {
+  /*background: none;*/
+  background: rgb(241, 214, 164);
+}
+
+table tr:nth-child(2n) {
+  background: rgb(241, 214, 164);
+}
+
+tbody {
+  border: 0;
+}
+
+tbody td {
+  position: relative;
+  border: 0;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .center {

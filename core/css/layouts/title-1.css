@@ -31,7 +31,7 @@ section.title-1 > h1 {
 }
 
 section.title-1 > h2 {
-  color: #FFFFFF;
+  color: var(--color-font-base);
   font-size: var(--font-size-h2) !important;
   text-align: center;
 }

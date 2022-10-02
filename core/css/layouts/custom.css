@@ -82,3 +82,7 @@ code[code-red] {
   font-size: 2.5rem;
   padding: 2rem !important;
 }
+
+section.top-2x {
+  padding-top: var(--font-size-title);
+}
