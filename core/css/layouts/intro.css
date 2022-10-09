@@ -20,6 +20,13 @@ section[data-class='intro'] h1 {
   grid-area: title;
 }
 
+section.intro h2 {
+  font-size: var(--font-size-h2);
+  align-self: flex-end;
+  text-align: center;
+  grid-area: subtitle;
+}
+
 section[data-class='intro'] p {
   grid-area: subtitle;
   justify-self: center;

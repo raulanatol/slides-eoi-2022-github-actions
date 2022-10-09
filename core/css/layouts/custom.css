@@ -29,10 +29,21 @@ section.bg-violet > h1 {
   color: white !important;
 }
 
+section.bg-violet > h2 {
+  color: white !important;
+}
+
 section.bg-violet > * > a {
   color: #FFFFFF;
 }
 
+section.bg-violet > ul > li {
+  color: white;
+}
+
+section.bg-violet > ul > li > a {
+  color: white;
+}
 
 section.bg-green {
   background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%) !important;
@@ -51,6 +62,10 @@ section.bg-white {
 }
 
 .bg-code > * > h1 {
+  color: #FFFFFF;
+}
+
+.bg-code > h2 {
   color: #FFFFFF;
 }
 
@@ -85,4 +100,10 @@ code[code-red] {
 
 section.top-2x {
   padding-top: var(--font-size-title);
+}
+
+.size2x > img {
+  transform: scale(2, 2);
+  -ms-transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
 }
