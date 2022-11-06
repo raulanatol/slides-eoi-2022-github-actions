@@ -55,3 +55,7 @@
   padding: 2rem !important;
   font-style: italic;
 }
+
+.vertical-one-column > .textLeft {
+  text-align: initial;
+}

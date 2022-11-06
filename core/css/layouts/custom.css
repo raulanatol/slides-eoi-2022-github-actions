@@ -81,6 +81,30 @@ section.bg-white {
   color: #DF6A73;
 }
 
+.bg-violet {
+  background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%) !important;
+}
+
+.bg-violet > h1 {
+  color: white !important;
+}
+
+.bg-violet > h2 {
+  color: white !important;
+}
+
+.bg-violet > * > a {
+  color: #FFFFFF;
+}
+
+.bg-violet > ul > li {
+  color: white;
+}
+
+.bg-violet > ul > li > a {
+  color: white;
+}
+
 code[code-red] {
   color: #DF6A73;
 }
@@ -106,4 +130,16 @@ section.top-2x {
   transform: scale(2, 2);
   -ms-transform: scale(2, 2);
   -webkit-transform: scale(2, 2);
+}
+
+.maxH400 {
+  max-height: 400px;
+}
+
+.opacity {
+  opacity: 0.1;
+}
+
+.align-items-start {
+  align-items: flex-start !important;
 }

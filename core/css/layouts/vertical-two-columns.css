@@ -1,6 +1,6 @@
 /* @theme layout-vertical-two-columns */
 
-section[data-class='vertical-two-columns'] {
+section.vertical-two-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 10% 1fr;
@@ -11,31 +11,32 @@ section[data-class='vertical-two-columns'] {
   padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space);
   background: var(--color-background);
   color: var(--color-font-primary);
+  align-items: center;
 }
 
-section[data-class='vertical-two-columns'] h1 {
+section.vertical-two-columns h1 {
   text-align: center;
   font-weight: 500;
   width: 100%;
 }
 
-section[data-class='vertical-two-columns'] h1:nth-of-type(1) {
+section.vertical-two-columns h1:nth-of-type(1) {
   grid-area: title1;
 }
 
-section[data-class='vertical-two-columns'] h1:nth-of-type(1) ~ p {
+section.vertical-two-columns h1:nth-of-type(1) ~ p {
   grid-area: content1;
 }
 
-section[data-class='vertical-two-columns'] h1:nth-of-type(2) {
+section.vertical-two-columns h1:nth-of-type(2) {
   grid-area: title2;
 }
 
-section[data-class='vertical-two-columns'] h1:nth-of-type(2) ~ p {
+section.vertical-two-columns h1:nth-of-type(2) ~ p {
   grid-area: content2;
 }
 
-section[data-class='vertical-two-columns'] p {
+section.vertical-two-columns p {
   justify-self: center;
   margin: 5px;
   text-align: center;
