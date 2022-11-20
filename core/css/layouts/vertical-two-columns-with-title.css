@@ -1,0 +1,43 @@
+/* @theme layout-vertical-two-columns-with-title */
+
+section.vertical-two-columns-with-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10% 1fr;
+  gap: var(--font-size-title);
+  grid-template-areas:
+    "title title"
+    "content1 content2";
+  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space);
+  background: var(--color-background);
+  color: var(--color-font-primary);
+}
+
+section.vertical-two-columns-with-title h1 {
+  grid-area: title;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+section.vertical-two-columns-with-title h2 {
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+section.vertical-two-columns-with-title > .left {
+  grid-area: content1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.vertical-two-columns-with-title > .right {
+  align-self: center;
+  grid-area: content2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

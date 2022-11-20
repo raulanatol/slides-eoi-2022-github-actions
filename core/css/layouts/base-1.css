@@ -1,0 +1,41 @@
+/* @theme layout-base-1 */
+
+section[data-class='base-1'] {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "subtitle"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px minmax(200px, 1fr) 20%;
+  grid-gap: var(--font-size-title);
+  padding: var(--base-padding);
+  background: var(--color-background);
+  color: var(--color-font-primary);
+}
+
+section[data-class='base-1'] h1 {
+  grid-area: title;
+  align-self: start;
+  text-align: center;
+  font-weight: 500;
+}
+
+section[data-class='base-1'] p {
+  grid-area: subtitle;
+  justify-self: center;
+  font-size: var(--font-size-content);
+  margin: 5px;
+  text-align: center;
+  max-height: 100%;
+}
+
+section[data-class='base-1'] p > strong {
+  color: var(--color-font-empasis);
+}
+
+section[data-class='base-1'] img {
+  grid-area: image;
+  max-height: 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,61 @@
+/* @theme layout-vertical-one-column */
+
+.vertical-one-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--font-size-title);
+  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space) !important;
+  color: var(--color-font-primary);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.vertical-one-column > h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.vertical-one-column h2 {
+  text-align: center;
+  font-size: var(--font-size-h2);
+}
+
+.vertical-one-column p {
+  grid-area: subtitle;
+  justify-self: center;
+  margin: 5px;
+  text-align: center;
+  max-height: 100%;
+}
+
+.vertical-one-column ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--font-size-content);
+  /*height: 100%;*/
+}
+
+.vertical-one-column strong {
+  color: var(--color-font-empasis);
+}
+
+.vertical-one-column img {
+  max-height: 400px;
+}
+
+.vertical-one-column.no-padding {
+  padding: 0 !important;
+}
+
+.vertical-one-column > blockquote {
+  font-size: 2.5rem;
+  padding: 2rem !important;
+  font-style: italic;
+}
+
+.vertical-one-column > .textLeft {
+  text-align: initial;
+}

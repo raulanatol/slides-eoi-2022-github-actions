@@ -1,0 +1,41 @@
+/* @theme layout-two-columns-title */
+
+section.two-columns-title {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "left right";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 1fr;
+  grid-gap: var(--font-size-content);
+  color: var(--color-font-base);
+  font-size: var(--font-size-content);
+  align-items: center;
+  padding: 2rem;
+}
+
+section.two-columns-title > h1 {
+  grid-area: title;
+  text-align: center;
+}
+
+section.two-columns-title > div.column-left {
+  margin: 10px !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: left;
+  align-items: center;
+  height: 100%;
+  gap: 4px;
+}
+
+section.two-columns-title > div.column-right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  grid-area: right;
+  align-items: center;
+  height: 100%;
+}

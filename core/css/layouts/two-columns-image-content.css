@@ -1,0 +1,32 @@
+/* @theme layout-two-columns-image-content */
+
+section.two-columns-image-content {
+  display: grid;
+  grid-template-areas: "content image";
+  grid-template-columns: 50% 50%;
+  grid-gap: 5px;
+  color: var(--color-font-base);
+  font-size: var(--font-size-content);
+  padding: 2rem;
+}
+
+section.two-columns-image-content.variant-right {
+  grid-template-areas: "image content";
+}
+
+section.two-columns-image-content > div.content {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 2.5rem;
+  justify-content: center;
+  grid-area: content;
+  text-align: center;
+}
+
+section.two-columns-image-content > p > img {
+  grid-area: image;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

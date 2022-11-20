@@ -1,0 +1,38 @@
+/* @theme layout-one-row */
+
+section.one-row {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "row";
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 1fr;
+  grid-gap: var(--font-size-content);
+  color: var(--color-font-base);
+  font-size: var(--font-size-content);
+  align-items: center;
+  padding: var(--top-space) var(--left-space) var(--bottom-space) var(--right-space);
+}
+
+section.one-row > h1 {
+  grid-area: title;
+  text-align: center;
+}
+
+section.one-row > p {
+  display: flex;
+  flex-direction: row;
+  grid-area: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--font-size-content);
+}
+
+section.one-row > p > a {
+  height: 100%;
+}
+
+section.one-row > p > * > img {
+  object-fit: contain;
+  max-height: 200px;
+}

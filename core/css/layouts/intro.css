@@ -1,0 +1,44 @@
+/* @theme layout-intro */
+
+section[data-class='intro'] {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "subtitle"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 30% 20%;
+  grid-gap: 5px;
+  background: indianred;
+  color: var(--color-background);
+}
+
+section[data-class='intro'] h1 {
+  font-size: 8rem !important;
+  align-self: flex-end;
+  text-align: center;
+  grid-area: title;
+}
+
+section.intro h2 {
+  font-size: var(--font-size-h2);
+  align-self: flex-end;
+  text-align: center;
+  grid-area: subtitle;
+}
+
+section[data-class='intro'] p {
+  grid-area: subtitle;
+  justify-self: center;
+  font-size: 2rem;
+}
+
+section[data-class='intro'] footer {
+  grid-area: footer;
+  justify-self: center;
+  align-self: center;
+}
+
+section[data-class='intro'] footer img {
+  max-height: 120px;
+}

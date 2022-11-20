@@ -1,0 +1,26 @@
+/* @theme layout-grid */
+
+section.grid {
+  display: flex;
+  flex-direction: column;
+  padding: var(--font-size-title) var(--left-space) var(--bottom-space) var(--right-space);
+  background: var(--color-background);
+  color: var(--color-font-primary);
+}
+
+section.grid > p {
+  display: grid;
+  grid-template-columns:  repeat(2, 1fr);
+  grid-template-rows:  repeat(2, 1fr);
+  gap: var(--font-size-title);
+  justify-items: center;
+  align-items: center;
+}
+
+section.grid > h1 {
+  text-align: center;
+}
+
+section.grid > * > img {
+  object-fit: scale-down;
+}

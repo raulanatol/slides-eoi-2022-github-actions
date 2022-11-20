@@ -7,7 +7,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf public && npm run -s og-image && npm run -s deck",
+    "build": "./.scripts/build.sh",
     "deck": "marp --no-stdin index.md -o public/index.html && ncp assets public/assets",
     "og-image": "marp --no-stdin index.md -o public/og-image.jpg",
     "pdf": "marp --pdf index.md",
@@ -17,8 +17,11 @@
   "devDependencies": {
     "@marp-team/marp-cli": "2.1.2",
     "@marp-team/marp-core": "3.3.2",
+    "markdown-it-attrs": "4.1.4",
     "markdown-it-container": "3.0.0",
     "markdown-it-include": "2.0.0",
-    "ncp": "2.0.0"
+    "markdown-it-prism": "2.3.0",
+    "ncp": "2.0.0",
+    "prismjs": "1.29.0"
   }
 }

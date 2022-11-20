@@ -1,0 +1,41 @@
+/* @theme layout-title-1 */
+
+section.title-1 {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+  justify-content: center;
+  background: linear-gradient(132deg, rgb(1, 96, 105) 0.00%, rgb(0, 72, 95) 100.00%);
+}
+
+section.title-1.variant-blue {
+  background-image: linear-gradient(to right, #00b4db, #0083b0) !important;
+}
+
+section.title-1.variant-gray {
+  background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%) !important;
+}
+
+section.title-1.variant-violet {
+  background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%) !important;
+}
+
+section.title-1.variant-green {
+  background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%);
+}
+
+section.title-1 > h1 {
+  color: #FFFFFF;
+  font-size: var(--font-size-big) !important;
+  text-align: center;
+}
+
+section.title-1 > h2 {
+  color: var(--color-font-base);
+  font-size: var(--font-size-h2) !important;
+  text-align: center;
+}
+
+section.title-1 > p {
+  text-align: center;
+}

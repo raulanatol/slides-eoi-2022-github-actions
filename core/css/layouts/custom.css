@@ -1,0 +1,145 @@
+/* @theme layout-intro */
+
+section.bg-default {
+  background: linear-gradient(132deg, rgb(1, 96, 105) 0.00%, rgb(0, 72, 95) 100.00%) !important;
+}
+
+section.bg-blue {
+  background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+section.bg-blue > * > strong {
+  color: #FFA600;
+}
+
+section.bg-gray {
+  color: #FFFFFF !important;
+  background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%) !important;
+}
+
+section.bg-gray > * > a {
+  color: #a8e4e3;
+}
+
+section.bg-violet {
+  background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%) !important;
+}
+
+section.bg-violet > h1 {
+  color: white !important;
+}
+
+section.bg-violet > h2 {
+  color: white !important;
+}
+
+section.bg-violet > * > a {
+  color: #FFFFFF;
+}
+
+section.bg-violet > ul > li {
+  color: white;
+}
+
+section.bg-violet > ul > li > a {
+  color: white;
+}
+
+section.bg-green {
+  background: linear-gradient(132deg, rgb(224, 235, 213) 0.00%, rgb(37, 148, 141) 100.00%) !important;
+}
+
+section.bg-white {
+  background: #FFFFFF;
+}
+
+.bg-code {
+  background: #2D2D2D !important;
+}
+
+.bg-code > h1 {
+  color: #FFFFFF;
+}
+
+.bg-code > * > h1 {
+  color: #FFFFFF;
+}
+
+.bg-code > h2 {
+  color: #FFFFFF;
+}
+
+.bg-code > * > h2 {
+  color: #FFFFFF;
+}
+
+.bg-code > * > a {
+  color: #CCCCCC;
+}
+
+.bg-code > blockquote {
+  color: #DF6A73;
+}
+
+.bg-violet {
+  background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%) !important;
+}
+
+.bg-violet > h1 {
+  color: white !important;
+}
+
+.bg-violet > h2 {
+  color: white !important;
+}
+
+.bg-violet > * > a {
+  color: #FFFFFF;
+}
+
+.bg-violet > ul > li {
+  color: white;
+}
+
+.bg-violet > ul > li > a {
+  color: white;
+}
+
+code[code-red] {
+  color: #DF6A73;
+}
+
+.font-1-5x {
+  font-size: 1.5rem;
+}
+
+.font-2x {
+  font-size: 2rem;
+}
+
+.font-2x > blockquote {
+  font-size: 2.5rem;
+  padding: 2rem !important;
+}
+
+section.top-2x {
+  padding-top: var(--font-size-title);
+}
+
+.size2x > img {
+  transform: scale(2, 2);
+  -ms-transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
+}
+
+.maxH400 {
+  max-height: 400px;
+}
+
+.opacity {
+  opacity: 0.1;
+}
+
+.align-items-start {
+  align-items: flex-start !important;
+}

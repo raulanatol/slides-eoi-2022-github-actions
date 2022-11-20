@@ -1,0 +1,34 @@
+/* @theme layout-two-columns */
+
+section.two-columns {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "left right"
+    "footer footer";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 1fr 10%;
+  grid-gap: var(--font-size-content);
+  color: var(--color-font-base);
+  font-size: var(--font-size-content);
+  align-items: center;
+  padding: 2rem;
+}
+
+section.two-columns > h1 {
+  grid-area: title;
+  text-align: center;
+}
+
+section.two-columns > div.column-left {
+  grid-area: left;
+}
+
+section.two-columns > div.column-right {
+  grid-area: right;
+}
+
+section.two-columns > div.footer {
+  justify-self: center;
+  grid-area: footer;
+}
