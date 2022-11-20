@@ -7,6 +7,12 @@ paginate: false
 _paginate: false
 ---
 
+<style scoped>
+  .area-5 {
+    text-align: center;
+  }
+</style>
+
 <!-- _class: theme-intro -->
 
 ![bg](assets/home.png)
